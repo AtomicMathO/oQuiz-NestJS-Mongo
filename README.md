@@ -95,5 +95,7 @@ $ npm run start:prod
 ## TODO
 
 - Finir la logique pour lié un tag à un quiz
+- Finir les DTO avec des méthodes de validation de données
 - Connecter le front du projet original
 - créer un cookie de session qui permettra la connexion suivant le 'role' d'un USER
+- JSDOC
