@@ -1,0 +1,9 @@
+{"_id": 1, "name": "Cinéma", "quizzes": [14, 7, 13, 4, 1, 8]}
+{"_id": 2, "name": "Technologie", "quizzes": [11, 3, 12]}
+{"_id": 3, "name": "Gastronomie", "quizzes": [18, 2, 5, 6, 9, 10, 15, 16, 17]}
+{"_id": 4, "name": "Littérature", "quizzes": []}
+{"_id": 5, "name": "Histoire", "quizzes": [11, 9, 12]}
+{"_id": 6, "name": "Animaux", "quizzes": [8, 1, 7]}
+{"_id": 7, "name": "Nature", "quizzes": [2]}
+{"_id": 8, "name": "Astronomie", "quizzes": []}
+{"_id": 9, "name": "Géographie", "quizzes": [2, 6, 9, 17]}

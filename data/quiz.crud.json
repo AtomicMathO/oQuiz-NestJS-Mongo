@@ -1,0 +1,18 @@
+{"_id": 1, "title": "Animaux célèbres - I", "description": "Tantôt effrayants, tdropantôt drôles.", "user_id" : 1, "tags": [1, 6]}
+{"_id": 2, "title": "Le chocolat - I", "description": "Bon pour le moral, un peu moins pour le foie.", "user_id" : 1, "tags": [3, 7 , 9]}
+{"_id": 3, "title": "Linux - I", "description": "Non, ce n'est pas un pingouin!", "user_id" : 1, "tags": [2]}
+{"_id": 4, "title": "Star Wars - I", "description": "La légende continue.", "user_id" : 1, "tags": [1]}
+{"_id": 5, "title": "Les bières belges - I", "description": "Patrimoine exporté dans le monde entier", "user_id" : 3, "tags": [3]}
+{"_id": 6, "title": "Les fromages de France - I", "description": "Près de 1000 fromages différents", "user_id" : 3, "tags": [3, 9]}
+{"_id": 7, "title": "Animaux célèbres - II", "description": "Tantôt effrayants, tantôt drôles.", "user_id" : 1, "tags": [1, 6]}
+{"_id": 8, "title": "Animaux célèbres - III", "description": "Tantôt effrayants, tantôt drôles.", "user_id" : 1, "tags": [1, 6]}
+{"_id": 9, "title": "Le chocolat - II", "description": "Bon pour le moral, un peu moins pour le foie.", "user_id" : 3, "tags": [3, 5, 9]}
+{"_id": 10, "title": "Le chocolat - III", "description": "Bon pour le moral, un peu moins pour le foie.", "user_id" : 1, "tags": [2, 3, 5]}
+{"_id": 11, "title": "Linux - II", "description": "Non, ce n'est pas un pingouin!", "user_id" : 3, "tags": [2, 5]}
+{"_id": 12, "title": "Linux - III", "description": "Non, ce n'est pas un pingouin!", "user_id" : 3, "tags": [2, 5]}
+{"_id": 13, "title": "Star Wars - II", "description": "La légende continue.", "user_id" : 1, "tags": [1]}
+{"_id": 14, "title": "Star Wars - III", "description": "La légende continue.", "user_id" : 1, "tags": [1]}
+{"_id": 15, "title": "Les bières belges - II", "description": "Patrimoine exporté dans le monde entier", "user_id" : 3, "tags": [3]}
+{"_id": 16, "title": "Les bières belges - III", "description": "Patrimoine exporté dans le monde entier", "user_id" : 3, "tags": [3]}
+{"_id": 17, "title": "Les fromages de France - II", "description": "Près de 1000 fromages différents", "user_id" : 3, "tags": [3, 9]}
+{"_id": 18, "title": "Les fromages de France - III", "description": "Près de 1000 fromages différents", "user_id" : 3, "tags": [3]}

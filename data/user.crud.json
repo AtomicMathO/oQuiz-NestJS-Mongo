@@ -1,0 +1,2 @@
+{"_id": 1, "firstname": "Philippe", "lastname": "Candille", "email": "philippe@oclock.io", "password": "$2y$10$7vwYGrz2TGeyG4X8YnD9BOag9I.YKGUTJELs64qGmcK/syHu2BzTG", "role": "user"}
+{"_id": 3, "firstname": "Chuck", "lastname": "Norris", "email": "chuck@oclock.io", "password": "$2y$10$7vwYGrz2TGeyG4X8YnD9BOag9I.YKGUTJELs64qGmcK/syHu2BzTG", "role": "user"}
