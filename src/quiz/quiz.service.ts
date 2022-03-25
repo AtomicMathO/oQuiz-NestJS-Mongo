@@ -8,13 +8,14 @@ export class QuizService {
   constructor(@InjectModel('Quiz') private readonly quizModel: Model<Quiz>) {}
 
   async findAll(): Promise<Quiz[]> {
-    return await this.quizModel.find().populate(['user_id', 'tags']);
+    const quizzes = await this.quizModel.find().populate(['user_id', 'tags']);
+    return quizzes;
   }
 
   async findOne(id: number): Promise<Quiz> {
     return await this.quizModel
       .findById({ _id: id })
-      .populate(['user_id', 'tags']);
+      .populate(['user_id', 'tags', 'questions']);
   }
 
   async create(quiz: Quiz): Promise<Quiz> {

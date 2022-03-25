@@ -7,24 +7,35 @@ import {
   Body,
   Param,
   ParseIntPipe,
+  Render,
 } from '@nestjs/common';
 import { QuizDto } from './dto/quiz.dto';
 import { QuizService } from './quiz.service';
 import { Quiz } from './schemas/quiz.schema';
 
-@Controller('quiz')
+@Controller()
 export class QuizController {
   constructor(private readonly quizService: QuizService) {}
 
   @Get()
-  findAll(): Promise<Quiz[]> {
-    return this.quizService.findAll();
+  @Render('index')
+  async findAll() {
+    const quizzes = await this.quizService.findAll();
+    return { quizzes: quizzes };
   }
+  // findAll(): Promise<Quiz[]> {
+  //   return this.quizService.findAll();
+  // }
 
-  @Get(':id')
-  findOne(@Param('id', ParseIntPipe) id): Promise<Quiz> {
-    return this.quizService.findOne(id);
+  @Get('quiz/:id')
+  @Render('quiz')
+  async findOne(@Param('id', ParseIntPipe) id) {
+    const quiz = await this.quizService.findOne(id);
+    return { quiz: quiz };
   }
+  // findOne(@Param('id', ParseIntPipe) id): Promise<Quiz> {
+  //   return this.quizService.findOne(id);
+  // }
 
   @Post()
   create(@Body() createQuizDto: QuizDto): Promise<Quiz> {
@@ -43,4 +54,7 @@ export class QuizController {
   ): Promise<Quiz> {
     return this.quizService.update(id, updateQuizDto);
   }
+}
+function id(arg0: typeof ParseIntPipe, id: any) {
+  throw new Error('Function not implemented.');
 }
